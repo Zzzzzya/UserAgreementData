@@ -1,0 +1,158 @@
+Terms
+1. Special Note
+1.1
+北京微梦创科网络技术有限公司、微梦创科网络科技（中国）有限公司及相关关联企业（以下合称"微梦公司"）同意按照本协议的规定及其不时发布的操作规则提供基于互联网以及移动网的新浪网微博客服务（以下称"微博服务"），为获得微博服务，微博服务使用人（以下称"用户"）应当基于了解本协议全部内容，在独立思考的基础上认可、同意本协议的全部条款并按照页面上的提示完成全部的注册程序。用户在进行注册程序过程中点击"同意" 按钮即表示用户完全接受《新浪网络服务使用协议》、《微博服务使用协议》、《微博社区公约（试行）》及微梦公司公示的各项规则、规范。
+1.2
+After the user has successfully registered, based on the users' object needs to use Weibo services, and at the time when user applies and registers for Weibo services, Weimeng will open microblogging services for users according to the account provided by the users based on the registration requirement. After Weimeng has opened the account for the users and agrees to provide the users with its services, the user has the right to use Weibo services. The user ID and password will be kept by the user; the users should be responsible for their own behavior when using Weibo services, be responsible for all information published by users through Weibo services, as well as all take full responsibility for any resulting consequences .The information submitted, posted or displayed by users are visible to other micro-blogging service users as well as third-party services and websites (users can exercise self-control by setting the functions to control the type of accounts that can access the information).
+1.3
+After the user has successfully completed the registration, Sina is entitled to the right to carry out non-commercial research on the user's operating behaviors when Weibo services are being used
+2. Contents of Services
+2.1
+微博服务的具体内容由微梦公司根据实际情况提供，包括但不限于授权用户通过其帐号，使用微博服务发布观点、评论、图片、视频、转发链接、长微博（使用长微博会自动开通打赏功能，《微博打赏服务协议》详见：
+http://t.cn/R7bHnV4
+）等，微梦公司有权对其提供的服务或产品形态进行升级或其他调整，并将及时更新页面/告知用户。
+2.2
+Weimeng service may include the Weibo platform virtual currency which can be bought by the users through Weimeng's virtual currency system, which can be used for paid services. Users will use real money to buy Weimeng's virtual currency in accordance with the processes and methods of Weimeng virtual currency system, and then use the virtual currency to purchase the paid Weibo services that the user requires, and eventually obtain the permission to access services. Before users start using the paid Sina Weibo services, Weimeng will give the user clear instructions, and only after users confirm their willingness to pay and actually paid the fees in accordance with the method of payment of Weibo services, can the users use those the paid Weibo services. If the user refuses to carry out the payment process, the user will not be able to use the corresponding paid Weibo services.
+2.3
+The users understand that Weimeng only provide technical services relating to Weibo services, and the users shall be responsible for the equipment related to network services (such as personal computers, mobile phones, and any other devices to access to the Internet or mobile network) and required fees (such as payment for Internet access fees, telephone charges and mobile Internet access fees, and mobile phone monthly fees in relation to Internet access).
+3. Service change, interruption or termination
+3.1
+In view of the special nature of network services, users agree that Weimeng reserves the right to change, suspend or terminate some or all of Weibo services (including network services with fees).In the event the service change, interruption or termination are for the free Weibo services, Weimeng company does not need to notify the users, also Weimeng company should not be responsible for the users or any third party. If the service change, interruption or termination are for the Weibo services with fees, Weimeng should give the users prior notice before the change, interruption or termination take place, and shall provide the affected users with alternative equivalent network services with fees, however if the users are unwilling to accept the alternative network services with fees, with respect to the virtual currency already paid by the users to Weimeng, Weimeng should deduct the amount of virtual currency corresponding to the services that have actually been used by the users, and then return the remaining virtual currency to the user's virtual currency account.
+3.2
+Users understand that Weimeng needs to regularly or irregularly carry out the repairs or maintenance to Weibo service platform (such as Internet websites, mobile networks, etc.) or related equipment, in the event these repairs or maintenance activities would cause the interruption of paid services during the reasonable time period, Weimeng company will not take any responsibilities, however Sina should notify the users as far in advance as possible.
+3.3
+Should any of the following circumstances arises, Weimeng reserves the right to interrupt or terminate the Weibo services provided to the users under the provisions of this Agreement (including the services with fees) without having to assume any responsibility to the users or any third party：
+3.3.1 The false personal data has been provided by the user；
+3.3.2 User has violated the related laws and regulations, State policies, or the service regulations under this Agreement；
+3.3.3 Users fail to pay the charges for the services used according to the regulations.
+3.4
+In case user did not use any services in 90 consecutive days after opening the Weibo services, Weimeng Company reserves the right to stop providing the user with micro-blogging service.
+3.4.1 Recycling Nickname;
+3.4.2 stop providing services for this user
+3.5
+Disclaimer for using third party Apps.
+3.5.1 用户违反法律法规国家政策、本协议或《新浪网络服务使用协议》 的；
+3.5.2 用户违反第三方帐户用户协议或其相关规定的；
+3.5.3 其他需要解除绑定的。
+Rules of Use
+4.1
+用户注册微博账号，制作、发布、传播信息内容的，应当使用真实身份信息及个人资料，不得以虚假、冒用的居民身份信息、企业注册信息、组织机构代码信息进行注册；若用户的个人资料有任何变动，用户应及时更新。
+4.2
+用户可自行编辑注册信息中的账号名称、头像、简介等，但应遵守“七条底线”以及相关管理规定，不得含有违法和不良信息。
+4.3
+如用户违反前述约定，依据相关法律、法规及国家政策要求，微梦公司有权随时采取不予注册、通知限期改正、注销登记用户账号、中止或终止用户对微博服务的使用等措施。如果用户冒用、关联机构或社会名人注册账号名称，微梦公司有权注销用户该账号，并向互联网信息内容主管部门报告。
+4.4
+Weimeng company will establish and improve the security of user information management system, and implement the technical safety prevention and control measures. Sina will be protecting user privacy that might be involved in the use of Weibo services.
+4.5
+Due to the fact that the Weibo Services is based on the account number provided by the user while applying for opening Weibo services, users should not transfer or lend his/her account number and password to be used by others. If the user has discovered that his/her account or Weibo services were under illegal use by others, the user should immediately notify Weimeng. If as a result of hacking or user's negligence in keeping the account information, the account, password, and micro-blogging service are under illegal use of others, Weimeng has the right to refuse to accept any responsibility.
+4.6
+User agrees that Sina reserves the right to insert or add various kinds of commercial advertising or other types of commercial information  (including but not limited to put advertisement on any webpage of Weimeng website), and, user agrees to accept product promotion or other relevant business information sent by Weimeng through email or other measures.
+4.7
+用户知悉、理解并同意授权微梦公司及其关联公司可非独家、可转授权地使用用户通过微博发布的内容，前述内容包括但不限于文字、图片、视频等。具体来说，可能会包括：
+4.7.1 将前述内容通过微博自身或其他第三方技术、网络等在微梦公司选择的网络平台、应用程序或产品中，以有线或无线网，通过免费或收费的方式在不同终端（包括但不限于电脑、手机、互联网电视、机顶盒及其他上网设备等）以不同形式（包括但不限于点播、直播、下载等）进行网络传播或电信增值服务等；
+4.7.2 将前述内容复制、翻译、编入微梦公司当前已知或以后开发的作品、媒体或技术中，用于微博相关用途开发或推广宣传等；
+4.7.3 将前述内容授权给电台、电视台、网络媒体、运营商平台等与微梦公司有合作的媒体或运营商播放、传播，用于微博相关推广宣传等；
+4.7.4 其他微梦公司及其关联公司出于善意或另行取得您授权的使用行为；
+4.7.5 用户对微梦公司及其关联公司的前述授权并不改变用户发布内容的所有权及知识产权归属，也并不影响用户行使其对发布内容的合法权利；
+4.7.6 微梦公司将尽最大的商业努力合理使用用户的授权内容，但并不代表微梦公司及其关联公司承诺一定会使用。
+4.8
+用户在使用微博服务的过程中应文明发言，并依法尊重其它用户的人格权与身份权等人身权利，共同建立和谐、文明、礼貌的网络社交环境。
+4.9
+When using the Weibo services, the users must follow the following guidelines:
+4.9.1 不得违反中华人民共和国法律法规及相关国际条约或规则；
+4.9.2 不得违反与网络服务、微博服务有关的网络协议、规定、程序及行业规则；
+4.9.3 不得违反法律法规、社会主义制度、国家利益、公民合法权益、公共秩序、社会道德风尚和信息真实性等“七条底线”要求；
+4.9.4 不得进行任何可能对互联网或移动网正常运转造成不利影响的行为；
+4.9.5 不得上传、展示或传播任何不实虚假、冒充性的、骚扰性的、中伤性的、攻击性的、辱骂性的、恐吓性的、种族歧视性的、诽谤诋毁、泄露隐私、成人情色、恶意抄袭的或其他任何非法的信息资料；
+4.9.6 不得以任何方式侵犯其他任何人依法享有的专利权、著作权、商标权等知识产权，或姓名权、名称权、名誉权、荣誉权、肖像权、隐私权等人身权益，或其他任何合法权益；
+4.9.7 不得以任何形式侵犯新浪或微梦公司的权利和/或利益或作出任何不利于新浪或微博公司的行为；
+4.9.8 不得从事其他任何影响微博平台正常运营、破坏微博平台经营模式或其他有害微博平台生态的行为。
+4.9.9 不得为其他任何非法目的而使用微博服务。
+4.10
+Any statement, notice, warning made by Weimeng company with respect to any specific Weibo Services through various means (including but not limited to the website notice, system notifications, private letter, SMS alert, etc.) are all considered as part of this Agreement, and should users agree to use the Weibo services, the users are deemed to have agreed with the contents in such statements, notification and alerts.
+4.11
+微梦公司有权对用户使用微博服务的行为及信息进行审查、监督及处理，包括但不限于用户信息（账号信息、个人信息等）、发布内容（位置、文字、图片、音频、视频、商标、专利、出版物等）、用户行为（构建关系、@信息、评论、私信、参与话题、参与活动、营销信息发布、举报投诉等）等范畴。如微梦公司发现、或收到第三方举报或投诉用户在使用微博服务时违反本协议第四条使用规则相关规定，微梦公司或其授权的主体有权依据其合理判断要求用户：
+a. 限期改正;
+b. 不经通知直接采取一切必要措施以减轻或消除用户不当行为造成的影响，并将尽可能在处理之后对用户进行通知。上述必要措施包括但不限于更改、屏蔽或删除相关内容，警告违规账号，限制或禁止违规账号部分或全部功能，暂停、终止、注销用户使用微博服务的权利等。
+4.12
+如用户在使用微博服务的过程中遇到其它用户上传违法侵权等内容，可直接点击"举报"按键进行举报，相关人员会尽快核实并进行处理；
+如涉及姓名权、名称权、名誉权、荣誉权、肖像权、隐私权等人身权益纠纷的处理，根据《最高人民法院关于审理利用信息网络侵害人身权益民事纠纷案件适用法律若干问题的规定》，请参照站方有关公告所公示的方式进行处理；
+如用户认为上述方法无法解决遇到的问题、或用户觉得有必要向司法行政机关寻求帮助的，请用户尽快向相关机关反馈，微梦公司将依法配合司法机关的调查取证工作。
+5. Intelligent Rights
+5.1
+微梦公司是微博平台的所有权及知识产权权利人。
+5.2
+微梦公司是微博平台产品的所有权及知识产权权利人。上述微博产品指的是微梦公司、或其关联公司、或其授权主体等通过微博平台为用户提供的包括但不限于信息发布分享、关系链拓展、便捷辅助工具、平台应用程序、公众开放平台等功能、软件、服务等。
+5.3
+微梦公司是微博平台及微博产品中所有信息内容的所有权及知识产权权利人。前述信息内容包括但不限于程序代码、界面设计、版面框架、数据资料、账号、文字、图片、图形、图表、音频、视频等，除按照法律法规规定应由相关权利人享有权利的内容以外。
+5.4
+用户在使用微博平台的过程中，可能会使用到由第三方针对微博服务开发的在微博平台运行的功能、软件或服务，用户除遵守本协议相关规定以外，还应遵守第三方相关规定，并尊重第三方权利人对其功能、软件、服务及其所包含内容的相关权利。
+5.5
+鉴于以上，用户理解并同意：
+5.5.1 未经微梦公司及相关权利人同意，用户不得对上述功能、软件、服务进行反向工程 （reverse engineer）、反向编译（decompile）或反汇编（disassemble）等；同时，不得将上述内容或资料在任何媒体直接或间接发布、播放、出于播放或发布目的而改写或再发行，或者用于其他任何目的。
+5.5.2 在尽商业上的合理努力的前提下，微梦公司并不就上述功能、软件、服务及其所包含内容的延误、不准确、错误、遗漏或由此产生的任何损害，以任何形式向用户或任何第三方承担任何责任；
+5.5.3 微梦公司并不对上述任何由第三方提供的功能、软件、服务或内容进行任何保证性的、或连带性的承诺或担保，由此产生的任何纠纷、争议或损害，由用户与第三方自行解决，微梦公司不承担任何责任；
+5.5.4 为更好地维护微博生态，微梦公司保留在任何时间内以任何方式处置上述由微梦公司享受所有权及知识产权的产品或内容，包括但不限于修订、屏蔽、删除或其他任何法律法规允许的处置方式。
+6. Privacy protection
+6.1
+本协议所指的“隐私”包括《电信和互联网用户个人信息保护规定》第4条关于个人信息、《最高人民法院关于审理利用信息网络侵害人身权益民事纠纷案件适用法律若干问题的规定》第12条关于个人隐私、以及未来不时制定或修订的法律法规中明确规定的隐私应包括的内容。
+6.2
+保护用户隐私和其他个人信息是微梦公司的一项基本政策，微梦公司保证不会将单个用户的注册资料及用户在使用微博服务时存储在微梦公司的非公开内容用于任何非法的用途，且保证将单个用户的注册资料进行商业上的利用时应事先获得用户的同意，但下列情况除外：
+6.2.1 Has obtained user's prior express authorization ；
+6.2.2 为维护社会公共利益；
+6.2.3 学校、科研机构等基于公共利益为学术研究或统计的目的，经自然人用户书面同意，且公开方式不足以识别特定自然人；
+6.2.4 用户自行在网络上公开的信息或其他已合法公开的个人信息；
+6.2.5 以合法渠道获取的个人信息；
+6.2.6 用户侵害新浪或微梦公司合法权益，为维护前述合法权益且在必要范围内；
+6.2.7 根据相关政府主管部门的要求；
+6.2.8 根据相关法律法规或政策的要求；
+6.2.9 其他必要情况。
+6.3
+Weimeng company may partner with third parties to provide users with the Weibo service, and in this case, if the third party agreed to bear the responsibility to provide equal protection of user privacy as Weimeng does, Weimeng Company reserves the right to provide the third party with user's registration information.
+7. Disclaimer
+7.1
+User expressly agrees that any risk associated with using Weibo services are the user's sole responsibility; and will bear all responsibilities for any consequences arising from its use of Weibo service from its own commitment, and Sina does not assume any responsibility for the user.
+7.2
+Weimeng does not guarantee that any network services will be able to meet user requirements; neither can Wimeng guarantee that the Weibo services will not be interrupted, nor will the timeliness of network services, security, and accuracy be guaranteed. Weimeng does not endorse, support, represent or guarantee the integrity, authenticity, accuracy or reliability of any information released through the Weibo services, or any opinion that gets passed through the Weibo services Users should make judgement at own discretion regarding the following information or contents that user might be exposed to, including illegal, non-moral, erroneous information or any other information containing inappropriate contents, as well as misclassified or deceptive information  Under any condition, Weimeng company will not bear any liability of any form for any loss or damage caused by any information, including but not limited to any erroneous or omissions of the information; or as a result of using the information via Weibo post, private message, transmitting or be released by other methods .
+7.3
+Weimeng company does not guarantee the accuracy and completeness of the external links set up for the convenience of the user, and does not assume any responsibility for the contents on any such web page via the external link, because Sina company does not actually control these websites.
+7.4
+For any interruption or other defects caused by or due to force majeure or reasons beyond the control of Weimeng Company, Weimeng Company does not assume any responsibility, but will try to reduce the losses and impacts sustained by the user.
+7.5
+User agrees that Weimeng company does not assume any responsibilities for the following quality defects of product or service provided to the users, or any loss caused by the quality defects:
+7.5.1 Free Weibo Services provided to the users by Weimeng company ；
+7.5.2 Any products or services gifted to the users by Weimeng company；
+7.5.3 A variety of products or services gifted to the users of paid services by Weimeng company.
+7.6
+用户知悉并同意，微梦公司可能会与第三方合作向用户提供产品（包括但不限于游戏、第三方应用等）并由第三方向用户提供该产品的升级、维护、客服等后续工作，由该等第三方对该产品的质量问题或其本身的原因导致的一切纠纷或用户损失承担责任，用户在此同意将向该第三方主张与此有关的一切权利和损失。
+7.7
+微博平台上提供的产品或服务（包括但不限于游戏物品及道具），如未标明使用期限、或者其标明的使用期限为“永久”、“无限期”或“无限制”的，则其使用期限为自用户获得该游戏物品或道具之日起至该产品或服务在微博下线之日为止。由微梦公司原因导致的本协议终止或者该产品或服务在微博下线时，用户将无法继续使用该产品或服务，微梦公司将该用户剩余虚拟货币退还用户的虚拟货币账户或向受影响的用户提供等值的替代性的收费网络服务。
+8. Damages for breach of contract
+8.1
+If as a result of Weimeng's violation of relevant laws, regulations or any provisions under this Agreement, the users have sustained losses; Sina Company agrees to assume liability for damages caused.
+8.2
+User agrees to protect and maintain interests of Weimeng company and other users, if as a result of breach of the laws, regulations or under any provision of this Agreement by the user, causing Weimeng company or any other third party to sustain losses, user agrees to assume liability for damages resulting therefrom.
+9. Modification of agreement
+9.1
+The Weimeng company reserves the right to modify any of the terms in this Agreement, and in case there are any changes in the contents of the Agreement, Weimeng will be posting the contents of this Agreement after modification, which will be considered that Weimeng Company has already informed the users of the modified contents. Weimeng can also notify users of the modified contents through other appropriate means.
+9.2
+If you do not agree with Weimeng Company regarding the changes made to the provisions of this Agreement, the user has the right to stop using Weibo Services. If the user continues to use the Weibo services, the user is considered to have accepted the modifications made by Weimeng Company to the related terms under this Agreement.
+10. Notice delivery
+10.1
+本协议项下微梦公司对于用户所有的通知均可通过网页公告、电子邮件、系统通知、微博管理帐号主动联系、私信、手机短信或常规的信件传送等方式进行；该等通知于发送之日视为已送达收件人。
+10.2
+Users should use the mailing address, fax number, e-mail address and other contact information officially announced by Weimeng Company as a means to deliver any notices.
+Legal jurisdiction
+11.1
+微博依据并贯彻中华人民共和国法律法规、政策规章及司法解释之要求，包括但不限于《全国人民代表大会常务委员会关于加强网络信息保护的决定》、《最高人民法院最高人民检察院适用法律若干问题的解释》等文件精神，制定《 微博服务使用协议 》。
+11.2
+The formulation, implementation and interpretation of this Agreement, as well as the dispute settlement should be subject to Chinese law and under the jurisdiction of the courts of China.
+11.3
+If the two parties have any dispute regarding the contents or implementation of this Agreement, the parties should try to resolve it through friendly consultation as far as possible; if the negotiation fails, either party may initiate the proceedings to the People's Court at the location where Weimeng Company is situated at.
+12. Other regulations
+12.1
+This Agreement constitutes the entire agreement for the stipulations of this Agreement and other related matters for the two sides, no other rights have been given to the parties of this Agreement except the provisions under the Agreement.
+12.2
+If any provision of this Agreement for whatever reason has become completely or partially invalid or not enforceable, the remaining provisions of this Agreement shall remain valid and binding.
+12.3
+Headings in this agreement are for convenience of the parties only and should be ignored in interpreting this agreement.
