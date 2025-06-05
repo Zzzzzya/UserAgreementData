@@ -77,7 +77,7 @@ def clean_and_deduplicate(input_dir, output_dir):
     
     return stats
 
-def process_all_subfolders(base_input_dir, base_output_dir):
+def process_all_subfolders(base_input_dir, base_output_dir,new_dir=None,all=True):
     """
     处理基础目录下的所有子文件夹
     :param base_input_dir: 基础输入目录
@@ -86,6 +86,19 @@ def process_all_subfolders(base_input_dir, base_output_dir):
     """
     # 确保基础输出目录存在
     os.makedirs(base_output_dir, exist_ok=True)
+
+    if all == False:
+        if new_dir is None:
+            print("错误: 当 all=False 时，必须提供 new_dir 参数!")
+            return
+        new_dir = new_dir + "_User_Agreements/"
+        base_input_dir = os.path.join(base_input_dir, new_dir)
+        base_output_dir = os.path.join(base_output_dir, new_dir)
+        print(f"\n开始处理文件夹: {base_input_dir}")
+        # 处理该子文件夹
+        stats = clean_and_deduplicate(base_input_dir, base_output_dir)
+        return stats
+
     
     # 获取所有子文件夹
     subfolders = [f for f in os.listdir(base_input_dir) 
@@ -131,18 +144,18 @@ if __name__ == "__main__":
     # 设置输入和输出目录
     base_input_directory = "./data/"  # data文件夹路径
     base_output_directory = "./cleaned_data/"  # 输出的根目录
+
+    new_dir = input("请输入需要处理的子文件夹名称（留空则处理所有子文件夹）: ").strip()
     
     if not os.path.exists(base_input_directory):
         print(f"错误: 目录 '{base_input_directory}' 不存在!")
     else:
         # 处理所有子文件夹
-        all_results = process_all_subfolders(base_input_directory, base_output_directory)
+        if new_dir:
+            all = False
+        else:
+            all = True
+        all_results = process_all_subfolders(base_input_directory, base_output_directory,new_dir,all)
         
         # 显示总体处理结果
         print("\n===== 全部处理完成! =====")
-        print(f"处理文件夹数: {all_results['处理文件夹数']}")
-        print(f"总文件数: {all_results['总文件数']}")
-        print(f"有效文件数: {all_results['有效文件数']}")
-        print(f"重复文件数: {all_results['重复文件数']}")
-        print(f"空文件数: {all_results['空文件数']}")
-        print(f"清洗后的文件已保存至: {base_output_directory}")
