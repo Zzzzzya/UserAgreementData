@@ -40,12 +40,14 @@ def try_method_click(driver,text):
                 print("点击成功!")
                 # 点击后等待页面响应
                 time.sleep(0.5)
+                return True
                 break
             except Exception as e:
                 print(f"使用方法 {method} 和值 {value} 定位失败: {e}")
                 continue
     except Exception as e:
         print(f"查找或点击链接时发生错误: {e}")
+        return False
 
 def open_url_with_chrome(url, headless=False, wait_time=5):
     """

@@ -50,7 +50,7 @@ def process_snapshot(snapshot, index):
         prefix = extract_wayback_prefix(archived_url)
         print(f"提取的前缀: {prefix}")
         
-        driver = page.open_url_with_chrome(archived_url, headless=True, wait_time=0)
+        driver = page.open_url_with_edge(archived_url, headless=True, wait_time=0)
         # page.try_method_click(driver, "服务协议")
         html_content = driver.page_source
         driver.quit()
@@ -130,7 +130,7 @@ else:
 
 
 
-begin = 0
+begin = 7
 end = 1000
 
 

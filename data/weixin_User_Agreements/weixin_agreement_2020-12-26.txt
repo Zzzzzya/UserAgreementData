@@ -1,6 +1,3 @@
- 
- 
- 
 
 
 
@@ -17,6 +14,10 @@
 
 
 
+
+
+
+
  
  
  
@@ -25,11 +26,23 @@
  
  
  
+微信软件许可及服务协议
  
  
  
- 
- 
+
+
+
+
+
+
+The Wayback Machine - http://weixin.qq.com/cgi-bin/readtemplate?lang=zh_CN&t=weixin_agreement&s=default
+
+
+
+
+
+
  
  
 微信 Windows 版
@@ -730,8 +743,6 @@ iOS、Android、Windows Phone、Symbian、BlackBerry、Windows、Mac
 隐私保护指引
  
 © 1998 - 2020 Tencent Inc. All Rights Reserved
- 
- 
  
  
  
