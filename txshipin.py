@@ -115,7 +115,7 @@ else:
 
 
 
-begin = 16
+begin = 43
 end = 100000
 
 

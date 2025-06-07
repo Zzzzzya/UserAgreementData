@@ -2,11 +2,13 @@
 import os
 import hashlib
 import shutil
+import re
 from pathlib import Path
+from datetime import datetime
 
 def clean_and_deduplicate(input_dir, output_dir):
     """
-    对指定目录下的所有TXT文件进行内容去重
+    对指定目录下的所有TXT文件进行内容去重，保留最早日期版本
     :param input_dir: 输入目录路径
     :param output_dir: 输出目录路径
     :return: 去重统计信息
@@ -14,7 +16,8 @@ def clean_and_deduplicate(input_dir, output_dir):
     # 确保输出目录存在
     os.makedirs(output_dir, exist_ok=True)
     
-    # 用于存储文件内容哈希值
+    # 用于存储文件内容哈希值及其对应的最早日期文件
+    # 格式: {content_hash: (date, filename, content)}
     content_hashes = {}
     
     # 统计信息
@@ -23,8 +26,8 @@ def clean_and_deduplicate(input_dir, output_dir):
     empty_files = 0
     processed_files = 0
     
-    # 获取所有txt文件
-    txt_files = list(Path(input_dir).glob('*.txt'))
+    # 获取所有txt文件并按文件名排序
+    txt_files = sorted(list(Path(input_dir).glob('*.txt')))
     total_files = len(txt_files)
     
     print(f"开始处理 {input_dir} 中的 {total_files} 个TXT文件...")
@@ -32,6 +35,17 @@ def clean_and_deduplicate(input_dir, output_dir):
     # 处理每个文件
     for file_path in txt_files:
         try:
+            file_name = file_path.name
+            
+            # 从文件名中提取日期 - 假设格式为 xxx_agreement_YYYY-MM-DD.txt
+            date_match = re.search(r'(\d{4}-\d{2}-\d{2})', file_name)
+            if date_match:
+                file_date = datetime.strptime(date_match.group(1), '%Y-%m-%d')
+            else:
+                # 如果无法提取日期，使用文件的修改时间
+                file_date = datetime.fromtimestamp(os.path.getmtime(file_path))
+                print(f"警告：文件 {file_name} 无法从名称提取日期，使用修改时间")
+            
             # 读取文件内容
             with open(file_path, 'r', encoding='utf-8', errors='replace') as f:
                 content = f.read()
@@ -42,7 +56,7 @@ def clean_and_deduplicate(input_dir, output_dir):
             # 跳过空文件
             if not cleaned_content:
                 empty_files += 1
-                print(f"跳过空文件: {file_path.name}")
+                print(f"跳过空文件: {file_name}")
                 continue
             
             # 计算内容哈希值
@@ -50,27 +64,37 @@ def clean_and_deduplicate(input_dir, output_dir):
             
             # 检查是否已存在相同内容
             if content_hash in content_hashes:
-                duplicate_files += 1
-                print(f"发现重复: {file_path.name} 与 {content_hashes[content_hash]}")
-                continue
-            
-            # 记录这个新内容的哈希值和文件名
-            content_hashes[content_hash] = file_path.name
-            
-            # 保存到输出目录
-            output_path = Path(output_dir) / file_path.name
-            with open(output_path, 'w', encoding='utf-8') as f:
-                f.write(cleaned_content)
+                stored_date, stored_file, _ = content_hashes[content_hash]
+                
+                # 判断哪个文件日期更早
+                if file_date < stored_date:
+                    # 当前文件日期更早，替换之前的记录
+                    print(f"发现重复但日期更早: {file_name} ({file_date.date()}) 替换 {stored_file} ({stored_date.date()})")
+                    content_hashes[content_hash] = (file_date, file_name, cleaned_content)
+                else:
+                    # 当前文件日期相同或更晚，标记为重复
+                    duplicate_files += 1
+                    print(f"发现重复且日期较晚: {file_name} ({file_date.date()}) 与 {stored_file} ({stored_date.date()})")
+                    continue
+            else:
+                # 记录这个新内容的哈希值、文件名和内容
+                content_hashes[content_hash] = (file_date, file_name, cleaned_content)
             
             processed_files += 1
             
         except Exception as e:
             print(f"处理文件 {file_path.name} 时出错: {e}")
     
+    # 将保留的内容写入输出目录
+    for content_hash, (_, file_name, content) in content_hashes.items():
+        output_path = Path(output_dir) / file_name
+        with open(output_path, 'w', encoding='utf-8') as f:
+            f.write(content)
+    
     # 返回处理统计
     stats = {
         "总文件数": total_files,
-        "有效文件数": processed_files,
+        "有效文件数": len(content_hashes),
         "重复文件数": duplicate_files,
         "空文件数": empty_files
     }

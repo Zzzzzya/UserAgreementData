@@ -174,16 +174,14 @@ def find_iframe_src(html_content, iframe_id="service_item_frame"):
     soup = BeautifulSoup(html_content, 'html.parser')
     
     # 方法1: 使用ID精确查找
-    div = soup.find('div', id=iframe_id)
-    if div:
+    iframe = soup.find('iframe', id=iframe_id)
+    if iframe and 'src' in iframe.attrs:
+        return iframe['src']
         # 在找到的div中查找iframe
-        iframe = div.find('iframe')
-        if iframe and 'src' in iframe.attrs:
-            return iframe['src']
-    
+
     return None
 
-def find_iframe_src(html_content, iframe_id="service_item_frame"):
+def find_div_iframe_src(html_content, iframe_id="service_item_frame"):
     """
     从HTML中查找指定ID的iframe并提取其src属性
     
@@ -207,6 +205,42 @@ def find_iframe_src(html_content, iframe_id="service_item_frame"):
             return iframe['src']
     
     return None
+
+def find_element_by_class(driver, class_name, element_type="div", wait_time=10):
+    """
+    查找具有特定class的元素
+    
+    参数:
+    driver: Selenium WebDriver实例
+    class_name: 要查找的class名称
+    element_type: 元素类型，默认为"div"
+    wait_time: 最长等待时间，默认为10秒
+    
+    返回:
+    找到的元素，如果未找到则返回None
+    """
+    try:
+        element = WebDriverWait(driver, wait_time).until(
+            EC.presence_of_element_located((By.CSS_SELECTOR, f"{element_type}.{class_name}"))
+        )
+        return element
+    except Exception as e:
+        print(f"查找class为{class_name}的{element_type}元素失败: {e}")
+        return None
+    
+
+def find_div(driver):
+    div = find_element_by_class(driver, "iframe-wrapper", element_type="div")
+    if div:
+        # 在找到的div中查找iframe - 使用Selenium的方法而非BeautifulSoup的find
+        try:
+            iframe = div.find_element(By.TAG_NAME, 'iframe')
+            # 获取src属性使用get_attribute而不是直接访问attrs
+            return iframe.get_attribute('src')
+        except Exception as e:
+            print(f"在div中查找iframe失败: {e}")
+    return None
+    
 
 def find_and_click_div_by_text(driver, text="注册协议"):
     """
