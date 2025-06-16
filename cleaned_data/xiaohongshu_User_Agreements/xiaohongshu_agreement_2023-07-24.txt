@@ -1,0 +1,9 @@
+滑块验证
+The Wayback Machine - https://www.xiaohongshu.com/website-login/captcha?redirectPath=https%3A%2F%2Fwww.xiaohongshu.com%2Fexplore&verifyUuid=shield-500d225e-da0d-4fd6-9b42-6916027ae629&verifyType=101&verifyBiz=461
+请通过验证
+验证过于频繁，请稍后重试
+请向右拖动滑块完成上方拼图
+验证成功
+验证失败
+刷新
+反馈
